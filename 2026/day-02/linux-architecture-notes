@@ -1,0 +1,54 @@
+Day 2 Assignment: 
+
+The core components of Linux (kernel, user space, init/systemd)
+
+Answer : The linux is an operating system which has different components that are give below in Linux architecture
+
+Linux Architecture:
+
+Application / user  : 
+-In this layer user uses the different application which directly communicate with the shell and gives the response 
+to the user like notpad 
+        |
+Shell : 
+-Shell is the program wirtten in c language that gives the instructions to kernel to perform a task. from here we 
+can give the commands and talk to kernel 
+- We can access shell using the terminal this is the command line interface (CLI) 
+        |
+Kernel :
+-Kernel is the heart of linux operating system which manages the system resources like process management 
+-It is the bridge between software and hardware 
+        |
+Hardware:
+-These are touchable things which is used to give input or to show the output to the user like keyboard for input and 
+monitor for output.
+
+
+[] init :
+- init is the process which has the process id (PID) 1 which start after loading the Linux Kernel 
+
+
+
+[] user-space services:
+- It is a service.
+- All the applications and programs you use (like browsers, games, text editors) that run in a separate, protected 
+area of memory, isolated from the core operating system (the kernel), which handles hardware.
+
+
+
+(*)How processes are created and managed : 
+* Process : 
+- An active instance of a running program is called process.
+- In linux each and every thing is process. 
+- Process is the task which is start and end after completing .
+- The every command we enter is an process like ping google.com is an process 
+- It has different life cycle stages like running , terminated , suspended, start,
+
+
+(*) What systemd does and why it matters?
+[] systemd:
+- It is a default system service manager.
+- d stands for daemon which means the processes running in the background.
+- Offers faster parallel boots.
+- Simplifies administration across different distributions compared to older, slower init systems and make the system fasters.
+
