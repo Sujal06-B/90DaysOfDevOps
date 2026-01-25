@@ -2,13 +2,13 @@ Day 2 Assignment:
 
 The core components of Linux (kernel, user space, init/systemd)
 
-Answer : The linux is an operating system which has different components that are give below in Linux architecture
+Answer : The linux is an operating system which has different components that are given below in Linux architecture
 
 Linux Architecture:
 
 Application / user  : 
 -In this layer user uses the different application which directly communicate with the shell and gives the response 
-to the user like notpad 
+to the user like notpad.
         |
 Shell : 
 -Shell is the program wirtten in c language that gives the instructions to kernel to perform a task. from here we 
@@ -26,7 +26,7 @@ monitor for output.
 
 [] init :
 - init is the process which has the process id (PID) 1 which start after loading the Linux Kernel 
-
+- After loading the GRUB (Grand Unified Bootloader).
 
 
 [] user-space services:
@@ -41,8 +41,8 @@ area of memory, isolated from the core operating system (the kernel), which hand
 - An active instance of a running program is called process.
 - In linux each and every thing is process. 
 - Process is the task which is start and end after completing .
-- The every command we enter is an process like ping google.com is an process 
-- It has different life cycle stages like running , terminated , suspended, start,
+- The every command we enter is a process like ping google.com is a process 
+- It has different life cycle stages like Start - Ready - Running - Waiting - Terminated.
 
 
 (*) What systemd does and why it matters?
