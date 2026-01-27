@@ -1,0 +1,39 @@
+Today’s goal is to build your Linux command confidence.
+
+You will create a cheat sheet of commands focused on:
+
+Process management : 
+
+Process: Process is instance of program execution 
+- Everything in linux is process.
+- We have follwing commands that are used for process management: 
+
+1. ps : It gives the snapshot of current processes.
+2.top : It displays the linux processes in the table format.
+3.htop: It displays the linux processes in graphical and colorful format.
+4.kill : This is used to kill the process using PID(Process ID)
+        - option like -9 that kills the process forefully
+        -ex. kill -9 3422(PID)
+5.pkill : This is used to kill process using it's name.
+        - pkill firefox
+6.bg/fg : Used to move between background and foreground.
+7.nice : Used to set the priority that defines which process will run first and last 
+
+
+
+File system: "All in linux is file or folder" 
+
+-Following are File System commands: 
+
+1.mkdir:Used to make Directory.
+2.rmdir:Used to remove empty directory
+3.rm: Used to remove file and directories (forcefully/recursively using the -r
+4.touch:
+5.cat:
+6.
+
+
+Networking troubleshooting
+
+
+This is the command toolkit you will reuse for years.
