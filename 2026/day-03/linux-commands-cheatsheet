@@ -28,12 +28,27 @@ File system: "All in linux is file or folder"
 1.mkdir:Used to make Directory.
 2.rmdir:Used to remove empty directory
 3.rm: Used to remove file and directories (forcefully/recursively using the -r
-4.touch:
-5.cat:
-6.
+4.touch: Used to create empty file.
+5.cat:Used to view , create and append the file.
+6.cp: to copy the file and directories.
+7.mv:to move or rename files and directories.
+
 
 
 Networking troubleshooting
+
+1.ping 
+Verifies IP-level connectivity to a host and measures latency and packet loss.
+
+2.ip addr
+Displays IP addresses and status of all network interfaces.
+
+3.ifconfig
+Used to displays or configures network interface parameters.
+
+4.ip route
+Views and modifies the kernel routing tables (replaces the older route command).
+
 
 
 This is the command toolkit you will reuse for years.
