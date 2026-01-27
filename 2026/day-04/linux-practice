@@ -1,1 +1,17 @@
+Check running processes
 
+I used top command to check the running processes
+
+Inspect one systemd service
+For this i have used the 
+
+systemctl --version :  to check version
+systemctl statud  : to check th status of system (running) 
+
+
+Capture a small troubleshooting flow using the follwing method: 
+
+Log terminal session : 	script log.txt
+Debug script flow : 	bash -x script.sh
+Check exit status : 	echo $? (0 = success, others = error)
+Recent history	 : history
