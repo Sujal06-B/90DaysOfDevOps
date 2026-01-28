@@ -1,17 +1,18 @@
-Check running processes
 
-I used top command to check the running processes
+Check Running Processes:
+Used "ps aux" and "top" commands to view all running processes along with their CPU and memory usage.
+This helps identify active processes and resource-heavy applications.
 
-Inspect one systemd service
-For this i have used the 
+Inspect a systemd Service:
+Checked the status of a systemd service using "systemctl status nginx". 
+The output showed whether the service was active, its process ID, uptime, and recent logs. 
+Verified startup configuration using "systemctl is-enabled nginx".
 
-systemctl --version :  to check version
-systemctl statud  : to check th status of system (running) 
+Troubleshooting Flow:
+If an issue occurs, first check the service status using "systemctl status". 
+If the service is not running, review logs using "journalctl -u nginx".
+Restart the service using systemctl restart nginx and recheck the status.
+If the issue persists, inspect resource usage and configuration files.
 
-
-Capture a small troubleshooting flow using the follwing method: 
-
-Log terminal session : 	script log.txt
-Debug script flow : 	bash -x script.sh
-Check exit status : 	echo $? (0 = success, others = error)
-Recent history	 : history
+Conclusion:
+These basic commands provide a quick and effective way to monitor processes, inspect services, and perform initial troubleshooting on a Linux system.
