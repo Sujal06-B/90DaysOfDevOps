@@ -1,0 +1,19 @@
+Service Chosen: nginx
+
+Health Check:
+-I monitored the nginx service to capture its system health. 
+-CPU and memory usage were checked using top and ps -C nginx and were found to be within normal limits. 
+-Disk usage was verified with df -h, showing sufficient free space. 
+-Network activity was checked using ss -tunap | grep nginx, confirming that the service was actively listening on port 80 with normal connections.
+
+
+Log Tracing:
+I traced the nginx logs by monitoring /var/log/nginx/access.log and /var/log/nginx/error.log. 
+The access logs showed successful requests, and the error logs contained no critical errors or warnings.
+
+Mini Runbook:
+If CPU usage increases, I would analyze traffic and scale the service. If memory usage becomes high, I would restart and tune nginx configurations. 
+If disk space becomes full, I would rotate or clean old logs. If the service goes down, I would check the service status, validate the configuration, and restart nginx.
+
+Conclusion:
+The nginx service is healthy, stable, and running as expected.
