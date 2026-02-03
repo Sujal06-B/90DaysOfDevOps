@@ -1,4 +1,4 @@
-# Day 07 – Linux File System Hierarchy & Scenario-Based Practice (Beginner Friendly)
+    # Day 07 – Linux File System Hierarchy & Scenario-Based Practice (Beginner Friendly)
 
 ---
 
